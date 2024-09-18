@@ -894,7 +894,7 @@ pub fn get_api_server(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "http://sckonlan.3322.org:7000".to_owned()
+    "http://49.7.227.198:21114".to_owned()
 }
 
 pub fn get_audit_server(api: String, custom: String, typ: String) -> String {
